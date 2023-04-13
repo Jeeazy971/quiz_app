@@ -27,6 +27,7 @@ void main() {
                 onPressed: () {},
                 child: const Text(
                   'Appuyez-ici',
+                  style: TextStyle(color: Colors.white),
                 ),
               )
             ],

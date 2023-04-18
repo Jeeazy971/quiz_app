@@ -21,7 +21,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
         children: [
           Text(
             currentQuestion.text,
-            // 'The question...
+            style: const TextStyle(color: Colors.white),
           ),
           const SizedBox(
             height: 30,

@@ -2,54 +2,113 @@ import 'package:quizz_app/models/quizz_question.dart';
 
 const questions = [
   QuizzQuestion(
-    'What are the main building blocks of Flutter UIs?',
+    'Quelle est la capitale de la France ?',
     [
-      'Widgets',
-      'Components',
-      'Blocks',
-      'Functions',
+      'Paris',
+      'Lyon',
+      'Marseille',
+      'Bordeaux',
     ],
-  ),
-  QuizzQuestion('How are Flutter UIs built?', [
-    'By combining widgets in code',
-    'By combining widgets in a visual editor',
-    'By defining widgets in config files',
-    'By using XCode for iOS and Android Studio for Android',
-  ]),
-  QuizzQuestion(
-    'What\'s the purpose of a StatefulWidget?',
-    [
-      'Update UI as data changes',
-      'Update data as UI changes',
-      'Ignore data changes',
-      'Render UI that does not depend on data',
-    ],
+    'Paris', // Bonne réponse
   ),
   QuizzQuestion(
-    'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
+    'Qui a peint la Joconde ?',
     [
-      'StatelessWidget',
-      'StatefulWidget',
-      'Both are equally good',
-      'None of the above',
+      'Leonardo da Vinci',
+      'Vincent Van Gogh',
+      'Pablo Picasso',
+      'Claude Monet',
     ],
+    'Leonardo da Vinci', // Bonne réponse
   ),
   QuizzQuestion(
-    'What happens if you change data in a StatelessWidget?',
+    'Quel est le plus grand océan du monde ?',
     [
-      'The UI is not updated',
-      'The UI is updated',
-      'The closest StatefulWidget is updated',
-      'Any nested StatefulWidgets are updated',
+      'Océan Pacifique',
+      'Océan Atlantique',
+      'Océan Indien',
+      'Océan Arctique',
     ],
+    'Océan Pacifique', // Bonne réponse
   ),
   QuizzQuestion(
-    'How should you update data inside of StatefulWidgets?',
+    'Qui a écrit "Romeo et Juliette" ?',
     [
-      'By calling setState()',
-      'By calling updateData()',
-      'By calling updateUI()',
-      'By calling updateState()',
+      'William Shakespeare',
+      'Charles Dickens',
+      'Jane Austen',
+      'Mark Twain',
     ],
+    'William Shakespeare', // Bonne réponse
+  ),
+  QuizzQuestion(
+    'Quelle planète est connue comme la Planète Rouge ?',
+    [
+      'Mars',
+      'Jupiter',
+      'Saturne',
+      'Vénus',
+    ],
+    'Mars', // Bonne réponse
+  ),
+  QuizzQuestion(
+    'Dans quel pays se trouve la ville de Tokyo ?',
+    [
+      'Japon',
+      'Chine',
+      'Corée du Sud',
+      'Thaïlande',
+    ],
+    'Japon', // Bonne réponse
+  ),
+  QuizzQuestion(
+    'Quel est le plus long fleuve du monde ?',
+    [
+      'Le Nil',
+      'L\'Amazone',
+      'Le Yangtsé',
+      'Le Mississippi',
+    ],
+    'Le Nil', // Bonne réponse
+  ),
+  QuizzQuestion(
+    'Qui est l\'auteur du "Petit Prince" ?',
+    [
+      'Antoine de Saint-Exupéry',
+      'Victor Hugo',
+      'Albert Camus',
+      'Marcel Proust',
+    ],
+    'Antoine de Saint-Exupéry', // Bonne réponse
+  ),
+  QuizzQuestion(
+    'Quel est l\'élément chimique le plus léger ?',
+    [
+      'Hydrogène',
+      'Oxygène',
+      'Carbone',
+      'Azote',
+    ],
+    'Hydrogène', // Bonne réponse
+  ),
+  QuizzQuestion(
+    'Quelle est la capitale de l\'Allemagne ?',
+    [
+      'Berlin',
+      'Munich',
+      'Hambourg',
+      'Francfort',
+    ],
+    'Berlin', // Bonne réponse
+  ),
+  QuizzQuestion(
+    'Quelle ville est surnommée "La Ville Lumière" ?',
+    [
+      'Paris',
+      'New York',
+      'Londres',
+      'Tokyo',
+    ],
+    'Paris', // Bonne réponse
   ),
 ];

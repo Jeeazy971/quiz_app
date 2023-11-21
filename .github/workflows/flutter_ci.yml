@@ -1,0 +1,24 @@
+name: Flutter CI
+
+on:
+  push:
+    branches: [ main, developp ]
+  pull_request:
+    branches: [ main, developp ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Flutter
+      uses: subosito/flutter-action@v1
+      with:
+        flutter-version: '3.13.0' # Spécifiez votre version de Flutter
+
+    - name: Get dependencies
+      run: flutter pub get
+
+    - name: Run tests
+      run: flutter test
